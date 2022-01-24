@@ -1,0 +1,15 @@
+.thingsLayout {
+  width: 100%;
+  height: 100vh;
+
+  .listNav {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+  }
+
+  .content {
+    position: relative;
+    height: calc(100vh - 100px);
+  }
+}

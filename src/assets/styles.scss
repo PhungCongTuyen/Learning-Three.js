@@ -1,0 +1,15 @@
+@import "../layouts/things-layout.module";
+@import "../view/first-thing/first-thing.module";
+@import "./variables";
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 375px;
+  background: $interview_background_linear;
+  margin: 0;
+}
+
+div {
+  font-family: Rubik;
+}
